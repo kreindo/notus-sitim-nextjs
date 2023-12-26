@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 // components
 
-import Navbar from "components/Navbars/AuthNavbar.js";
-import Footer from "components/Footers/Footer.js";
+import Navbar from 'components/Navbars/AuthNavbar.js';
+import Footer from 'components/Footers/Footer.js';
 
 export default function Landing() {
   return (
@@ -15,8 +15,7 @@ export default function Landing() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+              backgroundImage: 'url(https://i.imgur.com/2boxIlY.jpeg)',
             }}
           >
             <span
@@ -29,12 +28,15 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Cerdas Berkarakter Qurani.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
-                    based on the Tailwind CSS design system.
+                    Sekolah Dasar Islam Ibnu Mas'ud adalah sekolah yang berada
+                    di bawah naungan yayasan Ibnu Mas'ud Makassar. Sekolah ini
+                    dibentuk pada tahun 2018 dan dikembangkan berlandaskan pada
+                    prinsip Islam (Al Qur'an dan As-Sunnah) dengan harapan dapat
+                    melahirkan generasi yang berkarakter (berakhlak) dan
+                    memiliki wawasan keislaman yang baik.
                   </p>
                 </div>
               </div>
@@ -42,7 +44,7 @@ export default function Landing() {
           </div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-16"
-            style={{ transform: "translateZ(0)" }}
+            style={{ transform: 'translateZ(0)' }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -116,22 +118,21 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  Lorem ipsum dolor sit amet.
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Saepe quidem officia ea earum sed magni eaque maiores
+                  praesentium neque? Blanditiis!.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Mollitia, ut expedita ipsum labore quos voluptatibus maiores
+                  doloribus est perspiciatis ad Lorem ipsum dolor sit amet.
                 </p>
                 <Link href="/">
                   <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
-                    Check Notus NextJS!
+                    Pelajari lebih lanjut...
                   </a>
                 </Link>
               </div>
@@ -140,7 +141,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src="/img/belajar-kelas.jpg"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -156,12 +157,13 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                      Lorem, ipsum dolor.
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni, nisi Lorem ipsum dolor sit, amet consectetur
+                      adipisicing elit. Voluptatibus, veniam corrupti officiis
+                      nihil quis ipsum perferendis delectus in soluta tempore.
                     </p>
                   </blockquote>
                 </div>
@@ -170,10 +172,47 @@ export default function Landing() {
           </div>
         </section>
 
+        <section className="pb-20 mt-24">
+          <div className="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 p-4 max-w-[400px] md:max-w-[600px] place-items-center">
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/collection/1346951/150x150?sig=1"
+                alt=""
+              />
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/collection/1346951/150x150?sig=2"
+                alt=""
+              />
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/collection/1346951/150x150?sig=3"
+                alt=""
+              />
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/collection/1346951/150x150?sig=4"
+                alt=""
+              />
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/collection/1346951/150x150?sig=5"
+                alt=""
+              />
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/collection/1346951/150x150?sig=6"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+
         <section className="relative py-20">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-            style={{ transform: "translateZ(0)" }}
+            style={{ transform: 'translateZ(0)' }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -197,7 +236,7 @@ export default function Landing() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="/img/kegiatan-sekolah.jpg"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -265,11 +304,10 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">Pengelola Sekolah</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Commodi, modi. Qui, nesciunt corrupti Lorem ipsum dolor sit..
                 </p>
               </div>
             </div>
@@ -278,13 +316,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-1-800x800.jpg"
+                    src="https://fakeimg.pl/800x800?font=bebas"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Fulan</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Web Developer
+                      Lorem ipsum
                     </p>
                     <div className="mt-6">
                       <button
@@ -313,13 +351,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-2-800x800.jpg"
+                    src="https://fakeimg.pl/800x800?font=bebas"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">Fulan</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Marketing Specialist
+                      Lorem ipsum
                     </p>
                     <div className="mt-6">
                       <button
@@ -342,13 +380,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-3-800x800.jpg"
+                    src="https://fakeimg.pl/800x800?font=bebas"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Fulanah</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      UI/UX Designer
+                      Lorem ipsum
                     </p>
                     <div className="mt-6">
                       <button
@@ -377,13 +415,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-4-470x470.png"
+                    src="https://fakeimg.pl/800x800?font=bebas"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">Fulanah</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Founder and CEO
+                      Lorem ipsum dolor
                     </p>
                     <div className="mt-6">
                       <button
@@ -421,7 +459,7 @@ export default function Landing() {
         <section className="pb-20 relative block bg-blueGray-800">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-            style={{ transform: "translateZ(0)" }}
+            style={{ transform: 'translateZ(0)' }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -439,16 +477,16 @@ export default function Landing() {
             </svg>
           </div>
 
-          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-48">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                  Daftar Sekarang!
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laudantium eveniet reprehenderit placeat, doloremque voluptate
+                  perferendis Lorem ipsum dolor sit amet.
                 </p>
               </div>
             </div>
@@ -493,17 +531,22 @@ export default function Landing() {
           </div>
         </section>
         <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
-          <div className="container mx-auto px-4">
+          <iframe
+            title="contact-form"
+            src="https://whatsform.com/xMmnK-"
+            width="100%"
+            height="800"
+            frameBorder="0"
+          ></iframe>
+          {/* <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                   <div className="flex-auto p-5 lg:p-10">
-                    <h4 className="text-2xl font-semibold">
-                      Want to work with us?
-                    </h4>
+                    <h4 className="text-2xl font-semibold">Hubungi Kami</h4>
                     <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                      Complete this form and we will get back to you in 24
-                      hours.
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Eum quo placeat dicta velit.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
@@ -538,7 +581,7 @@ export default function Landing() {
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                         htmlFor="message"
                       >
-                        Message
+                        Pesan
                       </label>
                       <textarea
                         rows="4"
@@ -552,14 +595,14 @@ export default function Landing() {
                         className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
-                        Send Message
+                        Kirim Pesan
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </main>
       <Footer />
