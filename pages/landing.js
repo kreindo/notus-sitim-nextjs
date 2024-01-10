@@ -6,6 +6,61 @@ import Link from 'next/link';
 import Navbar from 'components/Navbars/AuthNavbar.js';
 import Footer from 'components/Footers/Footer.js';
 
+function DefaultGallery() {
+  const data = [
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    },
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+    },
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80',
+    },
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
+    },
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80',
+    },
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80',
+    },
+    {
+      imageLink:
+        'https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg',
+    },
+    {
+      imageLink:
+        'https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg',
+    },
+    {
+      imageLink:
+        'https://images.unsplash.com/photo-1620064916958-605375619af8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80',
+    },
+  ];
+
+  return (
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {data.map(({ imageLink }, index) => (
+        <div key={index}>
+          <img
+            className="h-40 w-full max-w-full rounded-lg object-cover object-center"
+            src={imageLink}
+            alt=""
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function Landing() {
   return (
     <>
@@ -25,8 +80,8 @@ export default function Landing() {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+              <div className="w-full lg:w-2/3 px-4 ml-auto mr-auto text-center">
+                <div className="pt-12">
                   <h1 className="text-white font-semibold text-5xl">
                     Cerdas Berkarakter Qurani.
                   </h1>
@@ -173,40 +228,7 @@ export default function Landing() {
         </section>
 
         <section className="pb-20 mt-24">
-          <div className="container mx-auto px-4">
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 p-4 max-w-[400px] md:max-w-[600px] place-items-center">
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=1"
-                alt=""
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=2"
-                alt=""
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=3"
-                alt=""
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=4"
-                alt=""
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=5"
-                alt=""
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=6"
-                alt=""
-              />
-            </div>
-          </div>
+          <DefaultGallery />
         </section>
 
         <section className="relative py-20">
