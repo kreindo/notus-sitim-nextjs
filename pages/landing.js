@@ -72,10 +72,13 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">
+                      Pendidkan Karakter
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Veniam hic obcaecati ex! Delectus, consequuntur aliquam
+                      repudiandae amet blanditiis ea. Facilis vitae autem ex.
                     </p>
                   </div>
                 </div>
@@ -87,10 +90,14 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
+                    <h6 className="text-xl font-semibold">
+                      Tahfidz Quran & Hadits
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quos at rerum similique velit, sit dolor commodi
+                      laboriosam maiores rem ratione, atque fugiat facilis
+                      placeat alias? Repellat iusto id rem voluptatum.
                     </p>
                   </div>
                 </div>
@@ -102,10 +109,10 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
+                    <h6 className="text-xl font-semibold">Life Skill</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                      Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                 </div>
@@ -172,7 +179,7 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="pb-20 mt-24">
+        {/* <section className="pb-20 mt-24">
           <div className="container mx-auto px-4">
             <div class="grid grid-cols-2 md:grid-cols-3 gap-3 p-4 max-w-[400px] md:max-w-[600px] place-items-center">
               <img
@@ -207,7 +214,7 @@ export default function Landing() {
               />
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="relative py-20">
           <div
